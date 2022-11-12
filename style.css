@@ -1,0 +1,154 @@
+*{padding: 0%;margin: 0%;}
+.Container{
+    margin: auto; 
+    max-width: 1049px;
+}
+.pagal-img{
+    background-color: #33383B;  
+    height: 6vhs; 
+}
+.pagal-img img{
+    height: 6vh;
+    width: 10vw;
+    margin: 9px;
+    min-width: 122px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    background-color: #4D4D4D;
+    width: 100%;
+}
+.items a{
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 1vh 2vw; 
+    color: aliceblue;
+    border: 1px #666 solid;
+    border-collapse: collapse;
+}
+.items a:hover{
+    color: red;
+}
+.text{
+    margin-left: 30px;
+    padding: 0 2px;
+    margin: 4px 0 4px 4px;
+}
+.text::after{
+    border: 2px rgb(13, 137, 225) solid;
+}
+.button{
+    width: auto;
+    padding: 3px 7px;
+    color: aliceblue;
+    background-color: red;
+    border: 0;border-radius: 5px;
+}
+.title{
+   text-align: center;
+   margin: 10px;
+   color: #004488;
+   font-size: 25px;
+}
+.para{
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 10px;
+}
+.para2{
+    text-align: center;
+    padding: 12px;
+}
+span{
+    color: red;
+}
+.top_song{
+    background-color: #33383B;
+    padding: 9px;
+    color: aliceblue;
+    font-size: 18px;
+    border-bottom: 3px #0f0082 solid;
+}
+.top_song{
+    margin-left: auto;
+    margin-right: auto;
+    width: 98vw;
+    box-sizing: border-box;
+    max-width: 1049px;
+}
+.list li:hover{
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,45);
+}
+.s {
+    font-size: 13.5px;
+}
+.b {
+    font-weight: 700;
+}
+.bk {
+    color: #333;
+}
+.list{
+    max-width: 1049px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list li {
+    display: inline-table;
+    width: 46%;
+    color: #333;
+    border-bottom: 1px solid #d8d1d1;
+    margin: 3px 3px 0px 3px;
+    padding: 0px 15px 0px 2px;
+    overflow: hidden;
+}
+.list li a {
+    display: inline-block;
+}
+.song_details{
+    display: inline-block;
+    float: right;
+    padding-top: 3px ;
+}
+.list img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 2px 10px 3px 0px;
+    border: 0;
+    border-radius: 5px;
+}
+footer{
+    max-width: 1049px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #33383B;
+    height: 6vh;
+}
+p.copy{
+    margin-top: 2px;
+    text-align: center;
+    color: aliceblue;
+}
+.conus{
+    text-align: center;
+    margin-bottom: 6px;
+    color: aliceblue;
+}
+.conus a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.contactus{
+    text-decoration: none;
+    color: rgb(18, 116, 192);
+}
+.conus a:hover{
+    color: red;
+}
+.contactus:hover{
+    color: red;
+}
