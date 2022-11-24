@@ -3,6 +3,10 @@
     margin: auto; 
     max-width: 1049px;
 }
+
+body{
+    /* min-width: 730px; */
+}
 .pagal-img{
     background-color: #33383B;  
     height: 6vhs; 
@@ -90,6 +94,7 @@ span{
 }
 .bk {
     color: #333;
+    margin-left: -274px;
 }
 .list{
     max-width: 1049px;
@@ -104,9 +109,12 @@ span{
     margin: 3px 3px 0px 3px;
     padding: 0px 15px 0px 2px;
     overflow: hidden;
+    
 }
 .list li a {
     display: inline-block;
+    max-height: 90px;
+    min-width: 365px;
 }
 .song_details{
     display: inline-block;
