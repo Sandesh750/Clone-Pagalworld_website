@@ -3,18 +3,14 @@
     margin: auto; 
     max-width: 1049px;
 }
-
-body{
-    /* min-width: 730px; */
-}
 .pagal-img{
     background-color: #33383B;  
     height: 6vhs; 
 }
 .pagal-img img{
-    height: 6vh;
-    width: 10vw;
-    margin: 9px;
+    height: 60px;
+    width: 200px;
+    margin: 2px;
     min-width: 122px;
 }
 .items{
@@ -37,9 +33,11 @@ body{
     color: red;
 }
 .text{
+    padding-left: 5px;
     margin-left: 30px;
-    padding: 0 2px;
+    font-size: 17px;
     margin: 4px 0 4px 4px;
+    width: 150px;
 }
 .text::after{
     border: 2px rgb(13, 137, 225) solid;
@@ -49,7 +47,8 @@ body{
     padding: 3px 7px;
     color: aliceblue;
     background-color: red;
-    border: 0;border-radius: 5px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 .title{
    text-align: center;
@@ -59,15 +58,23 @@ body{
 }
 .para{
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 1.3em;
     padding: 10px;
+    margin-bottom: 30px;
 }
 .para2{
     text-align: center;
     padding: 12px;
+    margin-bottom: 15px;
 }
 span{
     color: red;
+}
+.add{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
 }
 .top_song{
     background-color: #33383B;
@@ -159,4 +166,36 @@ p.copy{
 }
 .contactus:hover{
     color: red;
+}
+.song_name{
+    margin: 15px;
+    line-height: 1.3rem;
+    max-width: 1000px;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+}
+.center{  
+}
+.decoration{
+    text-decoration: none;
+    font-weight: 600;
+}
+.red{
+    color: red;
+}
+.black{
+    color:black ;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.cyan{
+    color: rgb(7, 185, 185);
+}
+.purple{
+    color: purple;
 }
